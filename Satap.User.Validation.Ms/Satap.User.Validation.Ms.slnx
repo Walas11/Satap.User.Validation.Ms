@@ -1,0 +1,25 @@
+<Solution>
+  <Folder Name="/Docs/">
+    <File Path="API.md" />
+    <File Path="Architecture.md" />
+    <File Path="README.md" />
+    <File Path="Security.md" />
+  </Folder>
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/Satap.User.Validation.Api/">
+    <Project Path="Satap.User.Validation.Api/Satap.User.Validation.Api.csproj" />
+  </Folder>
+  <Folder Name="/Src/Satap.User.Validation.Application/">
+    <Project Path="Satap.User.Validation.Application/Satap.User.Validation.Application.csproj" />
+  </Folder>
+  <Folder Name="/Src/Satap.User.Validation.Domain/">
+    <Project Path="Satap.User.Validation.Domain/Satap.User.Validation.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Src/Satap.User.Validation.Infrastructure/">
+    <Project Path="Satap.User.Validation.Infrastructure/Satap.User.Validation.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Test/" />
+  <Folder Name="/Test/Satap.User.Validation.UnitTests/">
+    <Project Path="Satap.User.Validation.UnitTests/Satap.User.Validation.UnitTests.csproj" />
+  </Folder>
+</Solution>
