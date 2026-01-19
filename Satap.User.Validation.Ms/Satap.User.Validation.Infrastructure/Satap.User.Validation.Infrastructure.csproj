@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="Security\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Persistence\DbContext\" />
+    <Folder Include="Persistence\Configurations\" />
+  </ItemGroup>
+
 </Project>

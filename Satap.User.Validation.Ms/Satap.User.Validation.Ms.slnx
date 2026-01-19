@@ -19,6 +19,9 @@
     <Project Path="Satap.User.Validation.Infrastructure/Satap.User.Validation.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/Test/" />
+  <Folder Name="/Test/Satap.User.Validation.IntegrationTests/">
+    <Project Path="Satap.User.Validation.IntegrationTests/Satap.User.Validation.IntegrationTests.csproj" Id="2593e1d4-0fad-4dac-8139-dc6f25d13ac0" />
+  </Folder>
   <Folder Name="/Test/Satap.User.Validation.UnitTests/">
     <Project Path="Satap.User.Validation.UnitTests/Satap.User.Validation.UnitTests.csproj" />
   </Folder>

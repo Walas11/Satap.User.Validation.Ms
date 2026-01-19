@@ -17,19 +17,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Satap.User.Validation.Application\Satap.User.Validation.Application.csproj" />
-    <ProjectReference Include="..\Satap.User.Validation.Domain\Satap.User.Validation.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\" />
-    <Folder Include="Domain\" />
-    <Folder Include="Mocks\" />
+    <Folder Include="API\" />
+    <Folder Include="Infrastructure\" />
     <Folder Include="Fixtures\" />
+    <Folder Include="TestServer\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Satap.User.Validation.Api\Satap.User.Validation.Api.csproj" />
+    <ProjectReference Include="..\Satap.User.Validation.Application\Satap.User.Validation.Application.csproj" />
+    <ProjectReference Include="..\Satap.User.Validation.Domain\Satap.User.Validation.Domain.csproj" />
+    <ProjectReference Include="..\Satap.User.Validation.Infrastructure\Satap.User.Validation.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
